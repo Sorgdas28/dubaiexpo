@@ -4,10 +4,10 @@
 // variables
 @import "variables";
 //bootstrap
-@import "../node_modules/bootstrap/scss/bootstrap";
-// barrio
-@import "barrio";
+@import "../../node_modules/bootstrap/scss/bootstrap";
 // typography
 @import "typography";
+// components
+@import "components";
 // mixins
 @import "mixins";

@@ -1,22 +1,22 @@
-bootstrap_barrio.small:
+icon_can_d8_bs4.small:
   label: small
   mediaQuery: 'all and (min-width: 34em) and (max-width: 47em)'
   weight: 0
   multipliers:
     - 1x
-bootstrap_barrio.medium:
+icon_can_d8_bs4.medium:
   label: medium
   mediaQuery: 'all and (min-width: 48em) and (max-width: 61em)'
   weight: 1
   multipliers:
     - 1x
-bootstrap_barrio.large:
+icon_can_d8_bs4.large:
   label: large
   mediaQuery: 'all and (min-width: 62em) and (max-width: 74em)'
   weight: 2
   multipliers:
     - 1x
-bootstrap_barrio.extra:
+icon_can_d8_bs4.extra:
   label: extra
   mediaQuery: 'all and (min-width: 75em)'
   weight: 3
