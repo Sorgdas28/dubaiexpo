@@ -554,6 +554,7 @@ function bootstrap_barrio_form_system_theme_settings_alter(&$form, FormStateInte
     '#default_value' => theme_get_setting('bootstrap_barrio_google_fonts'),
     '#empty_option' => t('None'),
     '#options' => array(
+      'open_sans_semibold' => 'Open Sans Semibold',
       'roboto' => 'Roboto Condensed, Roboto',
       'monserrat_lato' => 'Monserrat, Lato',
       'alegreya_roboto' => 'Alegreya, Roboto Condensed, Roboto',

@@ -1,18 +1,15 @@
 name: Bootstrap Barrio
 type: theme
 description: 'A flexible Booststrap based theme, with many regions and a responsive, mobile-first layout.'
-# version: VERSION
-# core: 8.x
+core: 8.x
 base theme: false
 
 libraries:
-  - bootstrap_barrio/global-styling
+  - icon_can_d8_bs4/global-styling
 
 libraries-extend:
   core/drupal.dropbutton:
-    - bootstrap_barrio/dropbutton
-  file/drupal.file:
-    - bootstrap_barrio/file
+    - icon_can_d8_bs4/dropbutton
 
 ckeditor_stylesheets:
   - css/base/elements.css
@@ -42,9 +39,3 @@ regions:
   footer_third: 'Footer third'
   footer_fourth: 'Footer fourth'
   footer_fifth: 'Footer fifth'
-
-# Information added by Drupal.org packaging script on 2018-08-09
-version: '8.x-4.17'
-core: '8.x'
-project: 'bootstrap_barrio'
-datestamp: 1533828192
